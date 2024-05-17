@@ -1,6 +1,14 @@
 # files to ignore during a commit
 
 ####################
+# Project specific #
+####################
+
+# Web scraping #
+####################
+my_praw_info.py
+
+####################
 # common .gitignore config from octocat github
 ####################
 
