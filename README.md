@@ -19,3 +19,13 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
 * /r/BPDsupport/
 
 ## Keywords
+* Therapy
+  *  DBT/dialectical behavioral therapy
+  *  CBT/cognitive behavioral therapy
+  *  EMDR/Eye Movement Desensitization and Reprocessing
+  *  Somatic
+  *  trauma based / trauma-informed
+  *  MBT/ Mentalization-based therapy 
+
+
+
