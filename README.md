@@ -9,13 +9,13 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
 
 ## Reddit List
 
-/r/bpd 
-/r/BorderlinePDisorder/
-/r/BPDmemes/
-/r/SuicideWatch
-/r/QuietBPD/
-https://www.reddit.com/r/BPDrecovery/
-/r/mentalhealth/
-/r/BPDsupport/
+* /r/bpd 
+* /r/BorderlinePDisorder/
+* /r/BPDmemes/
+* /r/SuicideWatch
+* /r/QuietBPD/
+* /r/BPDrecovery/
+* /r/mentalhealth/
+* /r/BPDsupport/
 
 ## Keywords
