@@ -57,3 +57,5 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
      * Seroquel / Quetiapine [commonly misspelled]   
 
 
+* Medication mentioned in the BPD
+  *
