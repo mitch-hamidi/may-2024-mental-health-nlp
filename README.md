@@ -52,9 +52,22 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
      *  Zoloft / Sertraline
      *  Escitalopram / Lexapro / Cipralex
      *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
-     *  
+     *  Citalopram / Celexa
+  *  SNRIs
+     * Venlafaxine / Effexor / EffexorXR     
   * Anti-psychotics
-     * Seroquel / Quetiapine [commonly misspelled]   
+     * Seroquel / Quetiapine [commonly misspelled]
+     * aripiprazole / abilify
+     * Risperidone /  Risperdal
+  * Mood stabilizers
+     * Lamotrigine / Lamictal
+     * Carbamazepine / Tegretol
+  * Benzos OR Anxiety-focused medications
+     * Lorazepam / Ativan (Benzo)
+     * Diazepam / Valium (Benzo)
+     * Clonazepam / Klonopin (Benzo) 
+     * Buspirone / BuSpar / BuSpar Dividose / Vanspar
+     * hydroxyzine /Atarax / Vistaril
 
 
 * Medication mentioned in the BPD
