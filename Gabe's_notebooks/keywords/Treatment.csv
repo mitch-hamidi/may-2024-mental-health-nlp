@@ -1,20 +1,18 @@
 treatment,category
-treatment,ambiguous
 dbt,DBT
-dialectical behavioral therapy,DBT
+dialectical,DBT
+behavioral,ambiguous
 cbt,CBT
-cognitive behavioral therapy,CBT
+cognitive,CBT
 emdr,EMDR
 eye movement desensitization and reprocessing,EMDR
 somatic,somatic
 trauma based,trauma
 trauma-informed,trauma
-trauma,trauma
 mbt,MBT
-mentalization-based therapy,MBT
+mentalization,MBT
 php,PHP
 partial hospitalization program,PHP
 iop,IOP
-intensive outpatient program,IOP
 intensive,IOP
 outpatient,IOP
