@@ -18,7 +18,7 @@ def comment_scrape():
     
     for r_name in subreddits:
 
-        postdf = pd.read_csv(r_name+'.csv')
+        postdf = pd.read_csv('data/posts/'+r_name+'.csv')
         postdf.drop_duplicates(subset=None, keep='first',inplace=True)
 
         links = postdf.loc[(postdf['Total Comments'] != '0') 
@@ -35,25 +35,44 @@ def comment_scrape():
 
             for comment in submission.comments.list():
                 comments['ID'].append(links['ID'][link])
-                comments['Comment'].append(comment.body)
-                comments['Author'].append(comment.author)
-                comments['OP'].append(comment.is_submitter)
-                comments['Post Date'].append(comment.created_utc)
+                try:
+                    comments['Comment'].append(comment.body)
+                except:
+                    comments['Comment'].append('None')
+                try:
+                    comments['Author'].append(comment.author)
+                except:
+                    comments['Author'].append('NONE')
+                try:
+                    comments['OP'].append(comment.is_submitter)
+                except:
+                    comments['OP'].append('NONE')
+                try:
+                    comments['Post Date'].append(comment.created_utc)
+                except:
+                    comments['Post Date'].append('NONE')
 
             i += 1
             
             if i % 100 == 0:
-                mins = np.random.randint(low=4, high=6)
-                # print delay
-                print('Completed',link,'posts. Delaying',mins,'minutes')
-                time.sleep(60*mins)
+            #    mins = np.random.randint(low=4, high=6)
+            #    # print delay
+            #    print('Completed',link,'posts. Delaying',mins,'minutes')
+                print('Completed',link+1,'posts.')
+            #    time.sleep(60*mins)
 
         comments_df = pd.DataFrame(comments)
+
+        # old dataframe
+        old_df = pd.read_csv('data/comments/'+r_name+'_comments.csv')
 
         # write to csv
         comments_df.to_csv('data/comments/'+r_name+'_comments.csv',index=False,mode='a')
 
+        # new dataframe
+        new_df = pd.read_csv('data/comments/'+r_name+'_comments.csv')
+
         # print success
-        print('Successfully appended','data/comments/'+r_name+'_comments.csv')
+        print('Successfully appended',len(new_df)-len(old_df),'pulled comments to data/comments/'+r_name+'_comments.csv')
 
         time.sleep(60*4)

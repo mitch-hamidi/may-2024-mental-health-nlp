@@ -82,11 +82,17 @@ def reddit_scrape():
 
         postdf = pd.DataFrame(posts_dict)
 
+        # old dataframe
+        old_df = pd.read_csv('data/posts/'+r_name+'.csv')
+
         # write to csv
         postdf.to_csv('data/posts/'+r_name+'.csv',index=False,mode='a')
 
+        # new dataframe
+        new_df = pd.read_csv('data/posts/'+r_name+'.csv')
+
         # print success
-        print('Successfully appended data/posts/'+r_name+'.csv')
+        print('Successfully appended',len(new_df)-len(old_df),'pulled posts to data/posts/'+r_name+'.csv')
 
         mins = np.random.randint(low=4, high=10)
 
