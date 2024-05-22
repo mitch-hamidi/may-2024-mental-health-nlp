@@ -24,6 +24,7 @@ Chronic mental health diagnoses like BPD have historically been viewed as more c
 * Accuracy of prediction
 * Sentiment analysis results
 * User engagement metrics which could provide additional insights into relevance and impact of treatment plans
+* Precision & recall 
 
 ## Data sources
 Scraping data from BPD support or community subreddits where many of the contributors are individuals who are diagnosed or identify as having BPD 
