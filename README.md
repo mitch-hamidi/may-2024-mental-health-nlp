@@ -75,7 +75,3 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
      * Clonazepam / Klonopin (Benzo) 
      * Buspirone / BuSpar / BuSpar Dividose / Vanspar
      * hydroxyzine /Atarax / Vistaril
-
-
-* Medication mentioned in the BPD
-  *
