@@ -9,6 +9,11 @@ Aim to predict the treatment plan (e.g., drug, individual/group therapy, combina
 ## Problem
 Chronic mental health diagnoses like BPD have historically been viewed as more challenging to treat due to reasons such as: (1) BPD is often comorbid with other mental diagnoses like post-traumatic stress disorder (PTSD), attention-deficit/hyperactivity disorder (ADHD), bipolar, and other mood-disorders, (2) it is highly stigmatized within the mental health community and is dismissed as untreatable (3) there is significant variance in symptom display as well as responsiveness to treatment. Comorbidity of other disorders contributes to complications in treatment which make it difficult for providers to apply a standardized treatment regimen for all individuals with BPD. Despite more recent evidence suggesting that individuals with BPD respond well to treatment and can achieve remission or reduction of symptoms over time, the stigmatization and gendered bias of BPD diagnoses among clinicians lead to poor treatment decisions at the expense of the patient. 
 
+## Methodology
+* 1st within the BPD community, can we classify who is undergoing/interested in treatment based on the text data.
+* 2nd can we identify predictors that of BPD individuals' preference for specific treatment plans/outcomes (e.g., demographic information, comorbidity). The project will most likely aim to use NLP but other methods are also possible based on suggestion.
+* Classification, predictive modeling, NLP, sentiment analysis, web scraping
+
 ## Stakeholders of the project: 
 * Healthcare Providers (therapists, psychologists, psychiatrists, social workers, inpatient treatment hospitals) involved in the treatment of BPD patients who are interested in understanding patient preferences, needs, and pain-points to tailor treatment plans effectively.
 * BPD patients
