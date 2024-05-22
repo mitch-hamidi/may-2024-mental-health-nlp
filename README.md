@@ -11,7 +11,8 @@ Chronic mental health diagnoses like BPD have historically been viewed as more c
 
 ## Stakeholders of the project: 
 * Healthcare Providers (therapists, psychologists, psychiatrists, social workers, inpatient treatment hospitals) involved in the treatment of BPD patients who are interested in understanding patient preferences, needs, and pain-points to tailor treatment plans effectively.
-* BPD patients or advocacy groups 
+* BPD patients
+* BPD advocacy groups 
 * Pharmaceutical companies
 
 ## Key Performance Indicators (KPIs):
@@ -37,7 +38,8 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
 * /r/mentalhealth/
 * /r/BPDsupport/
 
-## Keywords
+## Keywords 
+(Most relevant and common treatment plans for BPD symptoms)
 * Therapy / Psychotherapy
   *  DBT/dialectical behavioral therapy (most commonly recommended behavioral therapy)
   *  CBT/cognitive behavioral therapy
