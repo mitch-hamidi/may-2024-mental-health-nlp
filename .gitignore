@@ -8,6 +8,10 @@
 ####################
 my_praw_info.py
 
+# Kaggle dataset #
+####################
+mental_disorders_reddit.csv
+
 ####################
 # common .gitignore config from octocat github
 ####################
