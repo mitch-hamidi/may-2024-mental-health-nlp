@@ -1,0 +1,89 @@
+﻿therapy,behavioral,behavioral_all
+psychotherapy,behavioral,behavioral_all
+dbt,behavioral,behavioral_all
+dialectical behavioral therapy,behavioral,behavioral_all
+linehan,behavioral,behavioral_all
+cbt,behavioral,behavioral_all
+cognitive behavioral therapy,behavioral,behavioral_all
+emdr,behavioral,behavioral_all
+Eye Movement Desensitization and Reprocessing,behavioral,behavioral_all
+trauma based,behavioral,behavioral_all
+trauma informed ,behavioral,behavioral_all
+trauma therapy,behavioral,behavioral_all
+somatic,behavioral,behavioral_all
+somatic therapy,behavioral,behavioral_all
+therapist,behavioral,behavioral_all
+mbt,behavioral,behavioral_all
+mentalization based therapy,behavioral,behavioral_all
+php,behavioral,behavioral_all
+partial hospitalization program,behavioral,behavioral_all
+iop,behavioral,behavioral_all
+intensive outpatient program,behavioral,behavioral_all
+medications,meds,meds_all
+meds,meds,meds_all
+medication,meds,meds_all
+drug,meds,meds_all
+drugs,meds,meds_all
+SSRI,ssri,meds_all
+SSRIs,ssri,meds_all
+antidepressant,ssri,meds_all
+anti-depressant,ssri,meds_all
+zoloft,ssri,meds_all
+sertraline,ssri,meds_all
+escitalopram,ssri,meds_all
+lexapro,ssri,meds_all
+cipralex,ssri,meds_all
+prozac,ssri,meds_all
+fluoxetine,ssri,meds_all
+prozep,ssri,meds_all
+olena,ssri,meds_all
+oxactin,ssri,meds_all
+citalopram,ssri,meds_all
+pexeva,ssri,meds_all
+brisdelle,ssri,meds_all
+paxil,ssri,meds_all
+paroxetine,ssri,meds_all
+celexa,ssri,meds_all
+snri,snri,meds_all
+snris,snri,meds_all
+venlafaxine ,snri,meds_all
+effexor,snri,meds_all
+effexorXR,snri,meds_all
+antipsychotics,antipsychotic,meds_all
+anti-psychotics,antipsychotic,meds_all
+seroquel,antipsychotic,meds_all
+quetiapine,antipsychotic,meds_all
+aripiprazole,antipsychotic,meds_all
+abilify,antipsychotic,meds_all
+risperidone,antipsychotic,meds_all
+risperdal,antipsychotic,meds_all
+mood stabilizers,mood,meds_all
+lamotrigine,mood,meds_all
+lamictal,mood,meds_all
+carbamazepine,mood,meds_all
+tegretol,mood,meds_all
+benzos,benzos,meds_all
+benzodiazapine ,benzos,meds_all
+lorazepam,benzos,meds_all
+ativan,benzos,meds_all
+diazepam,benzos,meds_all
+valium,benzos,meds_all
+clonazepam,benzos,meds_all
+klonopin,benzos,meds_all
+xanax,benzos,meds_all
+alprazolam,benzos,meds_all
+buspirone,anxiolytics,meds_all
+buspar,anxiolytics,meds_all
+buspar dividose,anxiolytics,meds_all
+vanspar,anxiolytics,meds_all
+hydroxyzine,antihistamine,meds_all
+atarax,antihistamine,meds_all
+vistaril,antihistamine,meds_all
+antihistamine,antihistamine,meds_all
+anxiety medication,anxiolytics,meds_all
+wellbutrin,ndri,meds_all
+buproprion,ndri,meds_all
+ndri,ndri,meds_all
+treatment,,
+treat,,
+side effects,,
