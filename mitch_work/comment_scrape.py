@@ -29,30 +29,36 @@ def comment_scrape():
         i = 0
 
         for link in range(len(links)):
-
+            flag = 0
             submission = reddit.submission(id=links['ID'][link])
-            submission.comments.replace_more(limit=None)
 
-            for comment in submission.comments.list():
-                comments['ID'].append(links['ID'][link])
-                try:
-                    comments['Comment'].append(comment.body)
-                except:
-                    comments['Comment'].append('None')
-                try:
-                    comments['Author'].append(comment.author)
-                except:
-                    comments['Author'].append('NONE')
-                try:
-                    comments['OP'].append(comment.is_submitter)
-                except:
-                    comments['OP'].append('NONE')
-                try:
-                    comments['Post Date'].append(comment.created_utc)
-                except:
-                    comments['Post Date'].append('NONE')
+            try:
+                submission.comments.replace_more(limit=None)
+            except:
+                flag = 1
+            
+            if flag == 0:
+                for comment in submission.comments.list():
+                    comments['ID'].append(links['ID'][link])
+                    try:
+                        comments['Comment'].append(comment.body)
+                    except:
+                        comments['Comment'].append('None')
+                    try:
+                        comments['Author'].append(comment.author)
+                    except:
+                        comments['Author'].append('NONE')
+                    try:
+                        comments['OP'].append(comment.is_submitter)
+                    except:
+                        comments['OP'].append('NONE')
+                    try:
+                        comments['Post Date'].append(comment.created_utc)
+                    except:
+                        comments['Post Date'].append('NONE')
 
             i += 1
+            flag = 0
             
             if i % 100 == 0:
             #    mins = np.random.randint(low=4, high=6)
