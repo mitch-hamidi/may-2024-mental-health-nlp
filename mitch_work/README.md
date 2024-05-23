@@ -29,6 +29,7 @@
 * `subreddit_list.py` contains a function that returns the list of subreddits to be scraped
 * `clean_comments_csv.py` and `clean_post_csv.py` contain functions to clean duplicates of scraped data from each of the `data/` files
 * `reddit_scrape.py` and `comment_scrape.py` contain the **MAIN** functions to scrape subreddit posts from `subreddit_list.py` and the associated comments, respectively.
+* `my_praw_info_template.py` is a template for a function that returns the reddit authentication info to use the Reddit API. **Fill in your info then resave the file as `my_praw_info.py`. You can use the function in your notebooks but your info will not be uploaded as `my_praw_info.py` is in the `.gitignore` file.**
 
 ### Development Notebooks
 
