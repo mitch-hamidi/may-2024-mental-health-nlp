@@ -326,3 +326,15 @@ trintellix,SSRI
 brintellix,SSRI
 stabilizers,MoodStabilizer
 stabilizer,MoodStabilizer
+buspirone,benzodiazepine
+buspar,benzodiazepine
+vanspar,benzodiazepine
+tegretol,MoodStabilizer
+anti-depressant,SSRI
+antidepressant,SSRI
+SSRIs,SSRI
+brisdelle,SSRI
+antipsychotics,Antipsychotic
+anti-psychotics,Antipsychotic
+antipsychotic,Antipsychotic
+anti-psychotic,Antipsychotic
