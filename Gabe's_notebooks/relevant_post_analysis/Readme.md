@@ -1,0 +1,9 @@
+This folder applies the relevant analysis to get a collection of posts which are labelled relevant by the final keyword/decision-tree model.
+
+Since the final plan is to use the scraped data, the data used in this section will likely be irrelevant. However, the sentiment analysis and consensus models need data, so this is useful for generating some data for them to work with. Furthermore, it produces a collection of highly relevant posts for the research question.
+
+The creating_dataframe notebook does the following.
+    1. We import and clean all the subreddit posts from r/bpd between 1/1/2014 and 1/1/2022. This process was originally done in the initial analysis. We also combine the title and text of the posts.
+    2. We import and train the keyword model on the entire training data (leaving out the testing set, which was manually coded separately and not in the date ranges shown here). Doing so, we obtain a model for determining whether a post is relevant to the treatment of borderline personality disorder.
+    3. We run our model on the cleaned text from all of the subreddit posts obtained in step 1. We then drop the posts whose relevance value is very small (less than .04) to obtain ~58,000 posts, which are far more likely to be relevant in general.
+    4. We create a new dataframe which is ordered by relevance. By cutting off the relevance value at a much higher threshold, we obtain the posts of extremely high quality for the research question. I chose to include two cut-offs (.5 and .3), and going through these csv files all of the posts appear to be extremely relevant to the question (see 'highly_relevant_posts_descending_threshold_30.csv').
