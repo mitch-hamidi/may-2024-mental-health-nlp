@@ -1,0 +1,90 @@
+﻿keyword,type,class,misspell
+therapy,behavioral,behavioral_all,0
+psychotherapy,behavioral,behavioral_all,0
+dbt,behavioral,behavioral_all,0
+dialectical behavioral therapy,behavioral,behavioral_all,0
+linehan,behavioral,behavioral_all,0
+cbt,behavioral,behavioral_all,0
+cognitive behavioral therapy,behavioral,behavioral_all,0
+emdr,behavioral,behavioral_all,0
+Eye Movement Desensitization and Reprocessing,behavioral,behavioral_all,0
+trauma based,behavioral,behavioral_all,0
+trauma informed ,behavioral,behavioral_all,0
+trauma therapy,behavioral,behavioral_all,0
+somatic,behavioral,behavioral_all,0
+somatic therapy,behavioral,behavioral_all,0
+therapist,behavioral,behavioral_all,0
+mbt,behavioral,behavioral_all,0
+mentalization based therapy,behavioral,behavioral_all,0
+php,behavioral,behavioral_all,0
+partial hospitalization program,behavioral,behavioral_all,0
+iop,behavioral,behavioral_all,0
+intensive outpatient program,behavioral,behavioral_all,0
+SSRI,ssri,meds_all,0
+SSRIs,ssri,meds_all,0
+antidepressant,ssri,meds_all,0
+anti-depressant,ssri,meds_all,0
+zoloft,ssri,meds_all,0
+sertraline,ssri,meds_all,0
+escitalopram,ssri,meds_all,0
+lexapro,ssri,meds_all,0
+cipralex,ssri,meds_all,0
+prozac,ssri,meds_all,0
+fluoxetine,ssri,meds_all,0
+prozep,ssri,meds_all,0
+olena,ssri,meds_all,0
+oxactin,ssri,meds_all,0
+citalopram,ssri,meds_all,0
+pexeva,ssri,meds_all,0
+brisdelle,ssri,meds_all,0
+paxil,ssri,meds_all,0
+paroxetine,ssri,meds_all,0
+celexa,ssri,meds_all,0
+snri,snri,meds_all,0
+snris,snri,meds_all,0
+venlafaxine ,snri,meds_all,0
+effexor,snri,meds_all,0
+effexorXR,snri,meds_all,0
+antipsychotics,antipsychotic,meds_all,0
+anti-psychotics,antipsychotic,meds_all,0
+seroquel,antipsychotic,meds_all,0
+quetiapine,antipsychotic,meds_all,0
+aripiprazole,antipsychotic,meds_all,0
+abilify,antipsychotic,meds_all,0
+risperidone,antipsychotic,meds_all,0
+risperdal,antipsychotic,meds_all,0
+mood stabilizers,mood,meds_all,0
+lamotrigine,mood,meds_all,0
+lamictal,mood,meds_all,0
+carbamazepine,mood,meds_all,0
+tegretol,mood,meds_all,0
+benzos,benzos,meds_all,0
+benzodiazapine ,benzos,meds_all,0
+lorazepam,benzos,meds_all,0
+ativan,benzos,meds_all,0
+diazepam,benzos,meds_all,0
+valium,benzos,meds_all,0
+clonazepam,benzos,meds_all,0
+klonopin,benzos,meds_all,0
+xanax,benzos,meds_all,0
+alprazolam,benzos,meds_all,0
+buspirone,anxiolytics,meds_all,0
+buspar,anxiolytics,meds_all,0
+buspar dividose,anxiolytics,meds_all,0
+vanspar,anxiolytics,meds_all,0
+hydroxyzine,antihistamine,meds_all,0
+atarax,antihistamine,meds_all,0
+vistaril,antihistamine,meds_all,0
+antihistamine,antihistamine,meds_all,0
+anxiety medication,anxiolytics,meds_all,0
+wellbutrin,ndri,meds_all,0
+buproprion,ndri,meds_all,0
+ndri,ndri,meds_all,0
+treatment,general,general,0
+treat,general,general,0
+side effects,general,general,0
+medications,general,meds_all,0
+meds,general,meds_all,0
+medication,general,meds_all,0
+drug,general,meds_all,0
+drugs,general,meds_all,0
