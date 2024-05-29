@@ -1,4 +1,4 @@
-The goal of these notebooks are to identify relevant posts in a systematic and
+The goal of these notebooks are to identify relevant posts in a systematic and repeatable way, as well as one whose performance can be benchmarked.
 
 
 These files are an attempt to make a complete list of keywords that will be helpful to find relevant posts.
@@ -13,3 +13,5 @@ Some notes:
 1. I did not add 'xan' or 'cannabis', given that they tended to refer to recreational use. However, I did add 'medical marijuana' and 'medical cannabis'.
 
 2. We should find a way to allow for slight mispellings of common medications, but I will not address that for now.
+
+3. After running all the models, I realized that 'mg' should have been a keyword as well. 
