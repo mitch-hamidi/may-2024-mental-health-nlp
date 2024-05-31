@@ -55,14 +55,17 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
   *  MBT/ Mentalization-based therapy
   *  PHP / Partial Hospitalization Program
   *  IOP / Intensive Outpatient Program
-* Medications / Meds / Drugs 
-  * SSRIs 
-     *  Zoloft / Sertraline
-     *  Escitalopram / Lexapro / Cipralex
-     *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
-     *  Citalopram / Celexa
-  *  SNRIs
-     * Venlafaxine / Effexor / EffexorXR     
+* Medications / Meds / Drugs
+  *  Antidepressants  
+    * SSRIs 
+      *  Zoloft / Sertraline
+      *  Escitalopram / Lexapro / Cipralex
+      *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
+      *  Citalopram / Celexa
+    *  SNRIs
+      * Venlafaxine / Effexor / EffexorXR
+    *  NDRI
+      * Wellbutrin / bupropion    
   * Anti-psychotics
      * Seroquel / Quetiapine [commonly misspelled]
      * aripiprazole / abilify
