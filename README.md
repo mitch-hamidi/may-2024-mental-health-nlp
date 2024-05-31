@@ -63,9 +63,9 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
       *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
       *  Citalopram / Celexa
     *  SNRIs
-      * Venlafaxine / Effexor / EffexorXR
+      *  Venlafaxine / Effexor / EffexorXR
     *  NDRI
-      * Wellbutrin / bupropion    
+      *  Wellbutrin / bupropion    
   * Anti-psychotics
      * Seroquel / Quetiapine [commonly misspelled]
      * aripiprazole / abilify
