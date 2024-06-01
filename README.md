@@ -57,15 +57,15 @@ https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-redd
   *  IOP / Intensive Outpatient Program
 * Medications / Meds / Drugs
   *  Antidepressants  
-    * SSRIs 
-      *  Zoloft / Sertraline
-      *  Escitalopram / Lexapro / Cipralex
-      *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
-      *  Citalopram / Celexa
-    *  SNRIs
-      *    Venlafaxine / Effexor / EffexorXR  
-    *  NDRI
-      *  Wellbutrin / bupropion    
+     * SSRIs 
+       *  Zoloft / Sertraline
+       *  Escitalopram / Lexapro / Cipralex
+       *  Prozac / Fluoxetine / Prozep / Olena / Oxactin
+       *  Citalopram / Celexa
+     *  SNRIs
+         *    Venlafaxine / Effexor / EffexorXR  
+     *  NDRI
+         *  Wellbutrin / bupropion    
   * Anti-psychotics
      * Seroquel / Quetiapine [commonly misspelled]
      * aripiprazole / abilify
