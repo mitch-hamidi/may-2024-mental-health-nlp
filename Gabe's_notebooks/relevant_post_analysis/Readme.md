@@ -1,4 +1,4 @@
-This folder applies the relevant analysis to get a collection of posts which are labeled as relevant by the final keyword/decision-tree model and runs statistical analysis on these posts.
+This folder applies the relevant analysis to obtain a collection of posts which are labeled as relevant by the final keyword/decision-tree model and runs statistical analysis on these posts.
 
 
 The creating_dataframe notebook does the following.
@@ -9,11 +9,13 @@ The creating_dataframe notebook does the following.
 
 After this, I tried to generate sentiment analysis by running ollama with a carefully scripted prompt. These experiments are contained in ollama_experiments and ollama_experiments_2. This code requires access to the terminal to run correctly. My graphics card is only 1536 MB, so even when these models worked, they were too slow to be of use.
 
-The next idea was to repeat this approach using a ChatGPT model by making calls to the API. I started with gpt-3.5-turbo-instruct, but the results were fairly poor. Furthermore, the number of tokens was severely limited, restricting how precise my post could be. Although it was a bit more expensive gpt-4o worked much better and I ran this code in the OpenAI_text_analysis_4o. This yielded several CSV file. Most notably Lamotrigine_sentiments_4o contains the sentiments of the posts containing this medication. There is a cleaned version of this file, which converts some of the output to columns and also a coded version, where I manually verified that the sentiment analysis was appropriate. 
+The next idea was to repeat this approach using a ChatGPT model by making calls to the API. I started with gpt-3.5-turbo-instruct, but the results were fairly poor. Furthermore, the number of tokens per post was severely limited, restricting the quality of our analysis. Although it was a bit more expensive, gpt-4o worked much better and I ran this code in the OpenAI_text_analysis_4o. This yielded several CSV files. Most notably, Lamotrigine_sentiments_4o contains the sentiments of the posts containing this medication. There is a cleaned version of this file, which converts some of the output to columns and also a coded version. Furthermore, I manually verified that the sentiment analysis was appropriate and made changes to the sentiment/reason where it was incorrect.
 
-It is possible to validate the outcomes of the sentiment analysis by comparing the coded and uncoded versions of the Lamotrigine sentiment. There are 101 instances where the coded and generated values disagree. However, 81 of these are switches between '0' and '-'. Therefore, there are only 20 examples of a sentiment switching (and no example of a positive sentiment becoming negative).
+It is possible to validate the outcomes of the sentiment analysis by comparing the coded and uncoded versions of the Lamotrigine sentiment. There are 101 instances where the coded and generated values disagree (82% accuracy). However, 81 of these are switches between '0' and '-'. Therefore, if we group mixed, unclear and no experience, there are only 20 examples the sentiment switching (and no example of a positive sentiment becoming negative or vice-versa). For 552 posts, this is roughly 95% accuracy. With better prompt engineering, it should be possible to improve this perfomance.
 
 The fake_text_analysis was written to produce the code needed to run sentiment analysis without making unnecessary and expensive calls to the API. Note that for both the OpenAI notebooks, the API key has been removed and will need to be put back in to get a running model.
 
-Generating_Lamotrigine_images is a notebook to create graphs associated to the sentiment analysis and drug network.
+Generating_Lamotrigine_images is a notebook to create graphs associated to the sentiment analysis and drug network. The other files in this folder are images created in this process.
+
+The same analysis used for Lamotrigine was then run for Sentraline (i.e., Zoloft), which was the second most common medication. The sentiments in the high-quality dataset were less positive towards Zoloft compared to Lamotrigine.
 
