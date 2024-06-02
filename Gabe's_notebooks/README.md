@@ -18,4 +18,4 @@ Since running this analysis required API calls to OpenAI, doing so required was 
 
 Notes:
 1. Files in folders are numbered to explain their order.
-2. 'relevancy_models' and 'relevant_post_analysis' both contain Readme files with more details on their contents. 
+2. 'keywords', 'relevancy_models' and 'relevant_post_analysis' contain Readme files with more details on their contents. 
